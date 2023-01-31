@@ -26,11 +26,10 @@ function App() {
 
   return (
     <div>
-      <h1>ANKIT</h1>
-      <h1>QR CODE GEN</h1>
+      <h1>QR CODE GENERATOR</h1>
       <input
         type="text"
-        placeholder="e.g. https://google.com"
+        placeholder="https://ankitsharda.vercel.app/"
         value={url}
         onChange={(evt) => setUrl(evt.target.value)}
       />
