@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div>
+      <h1>ANKIT</h1>
       <h1>QR CODE GEN</h1>
       <input
         type="text"
